@@ -1,85 +1,87 @@
-/* Background */
 body {
-  background: linear-gradient(135deg, #ca4183, #8f94fb);
-  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #0077b6, #0096c7, #48cae4);
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Segoe UI', sans-serif;
   margin: 0;
-  animation: fadeIn 1.2s ease-in-out;
 }
 
-/* Container */
-.signup-container {
+/* Signup Card */
+.signup-card {
+  background: linear-gradient(145deg, #ffffff, #e3f2fd, #bbdefb);
+  border-radius: 1.25rem;
+  padding: 2rem;
+  border: none;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
   width: 100%;
   max-width: 420px;
-  padding: 15px;
-}
-
-/* Card Styling */
-.signup-card {
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
-  border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-  padding: 30px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .signup-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 35px rgba(0,0,0,0.3);
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.25);
 }
 
 /* Headings */
-.signup-card h2 {
-  font-weight: bold;
-  color: #333;
-  letter-spacing: 1px;
+h2 {
+  font-weight: 700;
+  color: #023e8a;
 }
 
-/* Inputs */
+/* Labels and Inputs */
+.form-label {
+  color: #023e8a;
+  font-weight: 500;
+}
+
 .form-control {
-  border-radius: 8px;
-  padding: 10px 12px;
-  border: 1px solid #ddd;
-  transition: border 0.2s ease, box-shadow 0.2s ease;
+  background: #ffffff;
+  border: 1px solid #90caf9;
+  border-radius: 0.6rem;
+  padding: 0.75rem;
+  transition: all 0.3s ease;
 }
 
 .form-control:focus {
-  border-color: #4e54c8;
-  box-shadow: 0 0 6px rgba(78, 84, 200, 0.4);
+  border-color: #0077b6;
+  box-shadow: 0 0 0 3px rgba(0, 119, 182, 0.25);
 }
 
 /* Buttons */
 .btn-primary {
-  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  background: linear-gradient(90deg, #0077b6, #00b4d8);
   border: none;
-  border-radius: 8px;
-  padding: 12px;
+  border-radius: 0.6rem;
+  padding: 0.75rem;
   font-weight: 600;
-  transition: transform 0.2s ease, background 0.3s ease;
+  transition: all 0.3s ease;
+  color: #fff;
 }
 
 .btn-primary:hover {
-  background: linear-gradient(135deg, #3e43a1, #6c72f9);
-  transform: translateY(-2px);
+  background: linear-gradient(90deg, #005f8a, #0096c7);
+  transform: scale(1.03);
 }
 
-/* Links */
+/* Checkbox & Links */
+.form-check-label {
+  color: #023e8a;
+}
+
 a {
-  color: #4e54c8;
+  color: #0077b6;
   text-decoration: none;
-  font-weight: 500;
 }
 
 a:hover {
+  color: #0096c7;
   text-decoration: underline;
 }
 
-/* Animation */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+/* Footer text */
+.text-center {
+  color: #023e8a;
 }
