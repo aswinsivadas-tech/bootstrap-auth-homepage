@@ -1,5 +1,7 @@
 # 🎬 Bootstrap auth homepage
 
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Bootstrap 5](https://img.shields.io/badge/Bootstrap%205-7952B3?logo=bootstrap&logoColor=white&style=flat-square)](https://getbootstrap.com/docs/5.0/)
 ![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white)
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-brightgreen)
