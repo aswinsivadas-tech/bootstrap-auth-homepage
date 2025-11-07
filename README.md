@@ -46,7 +46,7 @@
 
 ## 📌 **Home page**
 
-<img src="assets/screenshots/homepage (2).png"> 
+<img src="assets/screenshots/homepage.png"> 
 
 ---
 ## 📌 **Login page**
@@ -56,7 +56,7 @@
 ---
 ## 📌 **Sign page**
 
-<img src="assets/screenshots/signup.png"> 
+<img src="assets/screenshots/signuppage.png"> 
 
 ---
 
